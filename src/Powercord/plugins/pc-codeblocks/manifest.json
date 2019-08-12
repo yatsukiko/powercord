@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "description": "Improve Discord codeblocks",
   "author": "Powercord Team & ThuverX#9814",
-  "license": "MIT"
+  "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-codeblocks"
 }

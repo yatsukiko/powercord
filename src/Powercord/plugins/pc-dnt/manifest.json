@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "description": "Blocks all requests to Discord analytics endpoints",
   "author": "adam & rauenzi",
-  "license": "MIT"
+  "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-dnt"
 }

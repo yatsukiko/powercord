@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "description": "Allows you to create and manage textchat tags",
   "author": "Powercord Team",
-  "license": "MIT"
+  "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-tags"
 }

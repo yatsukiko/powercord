@@ -4,5 +4,6 @@
   "description": "Normalize Discord random class names to .pc- static classes",
   "author": "Powercord Team & BBD Developers",
   "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-classNameNormalizer",
   "appMode": "both"
 }

@@ -3,5 +3,6 @@
   "version": "0.2.0",
   "description": "A quick and easy solution for editing messages faster.",
   "author": "Harley#1051",
-  "license": "MIT"
+  "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-clickableEdits"
 }

@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "description": "Mock people",
   "author": "Melmsie",
-  "license": "MIT"
+  "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-mock"
 }

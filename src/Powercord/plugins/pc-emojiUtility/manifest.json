@@ -3,5 +3,6 @@
   "version": "1.3.3",
   "description": "Emote related commands",
   "author": "Joakim#9814, Bowser65",
-  "license": "MIT"
+  "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-emojiUtility"
 }

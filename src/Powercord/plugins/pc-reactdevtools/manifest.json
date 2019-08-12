@@ -4,5 +4,6 @@
   "description": "Adds React Devtools in Discord devtools",
   "author": "Powercord Team",
   "license": "MIT",
-  "appMode": "both"
+  "appMode": "both",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-reactdevtools"
 }

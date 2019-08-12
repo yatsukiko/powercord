@@ -4,6 +4,7 @@
   "description": "Powercord's style manager",
   "author": "Powercord Team",
   "license": "MIT",
+  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-styleManager"
   "appMode": "both",
   "dependencies": [
     "pc-classNameNormalizer"
