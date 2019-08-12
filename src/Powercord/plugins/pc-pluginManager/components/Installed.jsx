@@ -20,7 +20,7 @@ module.exports = class Installed extends React.Component {
 
     return <div className='powercord-plugins'>
       <div className='ghostPill-2-KUPM powercord-plugins-wip'>
-        This part of Powercord is a WIP. Expect unavailable features and crashes here
+        This part of Powercord is a WIP. Expect unavailable features and crashes here, disabling plugins may cause discord unstable.
       </div>
       <div className='powercord-plugins-header'>
         <h3>Installed plugins</h3>
@@ -47,8 +47,8 @@ module.exports = class Installed extends React.Component {
           hidden={powercord.settings.get('hiddenPlugins', []).includes(plugin.pluginID)}
           manifest={plugin.manifest}
 
-          onEnable={() => this.enable(plugin.pluginID)}
-          onDisable={() => this.disable(plugin.pluginID)}
+          onEnable={() => powercord.pluginManager.enable(plugin.pluginID)}
+          onDisable={() => powercord.pluginManager.disable(plugin.pluginID)}
 
           onUninstall={() => this.uninstall(plugin.pluginID)}
         />)}

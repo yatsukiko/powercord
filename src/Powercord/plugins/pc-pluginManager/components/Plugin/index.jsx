@@ -1,5 +1,5 @@
 const { React } = require('powercord/webpack');
-
+const { REPO_URL } = require('powercord/constants');
 const Header = require('./Header');
 const Container = require('./Container');
 const Permissions = require('./Permissions');
@@ -13,8 +13,7 @@ module.exports = class Plugin extends React.Component {
       installing: false
     };
   }
-
-  render () {
+  render () {	
     const {
       id, installed, enabled, manifest, // Properties
       onEnable, onDisable, onInstall, onUninstall // Events
@@ -41,9 +40,10 @@ module.exports = class Plugin extends React.Component {
         installing={this.state.installing}
         onUninstall={() => this.process(onUninstall)}
         onInstall={() => this.process(onInstall)}
+		repo={manifest.repo}	
       />
     </div>;
-  }
+	}
 
   async process (func) {
     this.setState({ installing: true });

@@ -3,6 +3,5 @@
   "version": "0.1.1",
   "description": "Powercord's plugin manager",
   "author": "Powercord Team",
-  "license": "MIT",
-  "repo": "https://github.com/powercord-org/powercord/tree/v2/src/Powercord/plugins/pc-pluginManager"
+  "license": "MIT"
 }
